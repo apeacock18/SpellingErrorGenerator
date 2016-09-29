@@ -33,7 +33,7 @@ int main() {
 	string mainText = "";
 	int maxErrors = 0, maxWords = 0, numErrors = 0, startIndex = 0, offset = 0;
 
-	srand(time(NULL));
+	srand(time(0));
 
 	// Read in misspellings dictionary from text file
 	std::ifstream myfile("misspellings.txt");
